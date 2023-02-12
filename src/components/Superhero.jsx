@@ -3,7 +3,7 @@ import './Superhero.css';
 function Superhero(props) {
   return (
     <div className='hero_card'>
-      <img src={props.url}></img>
+      <img src={props.url} alt={props.alt}></img>
       <div className='hero_name'>Имя: {props.name}</div>
       <p className='hero_text'>Вселенная: {props.universe}</p>
       <p className='hero_text'>Альтер-эго: {props.alter}</p>
